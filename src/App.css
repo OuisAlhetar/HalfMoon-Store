@@ -27,7 +27,9 @@
 .App-link {
   color: #61dafb;
 }
-
+body{
+  background: #585757;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +37,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+.singup-pass{
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: rgb(197, 183, 183);
+}
+.forget-pass{
+  transition: all 0.3s ease;
+}
+.forget-pass:hover{
+color: white;
+}
+.singup-pass:hover{
+  color: white;
+}
+@font-face {
+  font-family: Amiri;
+  src: url("/public/Amiri/Amiri-Regular.ttf");
+  font-weight: 100;
+}
+@font-face {
+  font-family: Amiri;
+  src: url("/public/Amiri/Amiri-Bold.ttf");
+  font-weight: bold;
 }
